@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Calendario</title>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="./index.html" onclick="showTab('clock')">Relógio</a></li>
+        <li>
+          <a href="./cronometro.html" onclick="showTab('stopwatch')"
+            >Cronômetro</a
+          >
+        </li>
+        <li>
+          <a href="./calendario.html" onclick="showTab('calendar')"
+            >Calendário</a
+          >
+        </li>
+      </ul>
+    </header>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <title>Calendário</title>
+      </head>
+      <body>
+        <header>
+          <ul>
+            <li>
+              <a href="./index.html" onclick="showTab('clock')">Relógio</a>
+            </li>
+            <li>
+              <a href="./cronometro.html" onclick="showTab('stopwatch')"
+                >Cronômetro</a
+              >
+            </li>
+            <li>
+              <a href="./calendario.html" onclick="showTab('calendar')"
+                >Calendário</a
+              >
+            </li>
+          </ul>
+        </header>
+        <!-- Mês Atual -->
+        <div class="calendar">
+          <div class="month">
+            <h2>Junho 2024</h2>
+            <button onclick="prevMonth()">Anterior</button>
+            <button onclick="nextMonth()">Próximo</button>
+          </div>
+          <!-- Dias da Semana -->
+          <div class="weekdays">
+            <div>Dom</div>
+            <div>Seg</div>
+            <div>Ter</div>
+            <div>Qua</div>
+            <div>Qui</div>
+            <div>Sex</div>
+            <div>Sáb</div>
+          </div>
+
+          <div class="days">
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+          </div>
+        </div>
+
+        <script src="./src/js/calendario.js"></script>
+      </body>
+    </html>
+  </body>
+</html>

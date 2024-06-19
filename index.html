@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Relógio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html" onclick="showTab('clock')">Relógio</a></li>
+          <li>
+            <a href="./cronometro.html" onclick="showTab('stopwatch')"
+              >Cronômetro</a
+            >
+          </li>
+          <li>
+            <a href="./calendario.html" onclick="showTab('calendar')"
+              >Calendário</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="clock">
+      <div class="time" id="time">12:00:00</div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000;
+}
+
+/* Estilo do cabeçalho */
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #ff0000;
+  padding: 15px 0;
+}
+
+header ul {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+}
+
+header ul li a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 10rem;
+  background-color: #000;
+  box-shadow: 0 0 10px rgba(126, 126, 126, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* Estilo do painel principal */
+.panel {
+  background-color: #000;
+  box-shadow: 0 0 10px rgba(126, 126, 126, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+#panel-tempo {
+  font-size: 10rem;
+}
+
+.colored {
+  color: #fff;
+}
+
+/* Estilo do título principal */
+.main-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.text-center {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#panel-ferramentas {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+#panel-ferramentas .volta {
+  display: inline-block;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+/* Estilo dos botões */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ffbb00;
+  color: #fff;
+}
+
+.btn-redefinir {
+  background-color: #4e4f50;
+  color: #fff;
+}
+
+.btn-iniciar {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-parar {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn:hover:not(:disabled) {
+  opacity: 0.8;
+}
+
+/* Estilo Calendario */
+
+.calendar {
+
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 50%;
+}
+
+.month {
+  width: 100%;
+  color: #fff;
+  padding: 10px 0;
+  background-color: #2f00ff;
+  text-align: center;
+}
+
+.weekdays {
+  display: flex;
+  color: #000;
+}
+
+.weekdays div {
+  width: 14.28%;
+  padding: 10px;
+  background-color: #0ac743;
+  text-align: center;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  background-color: #ff0000;
+}
+
+.days div {
+  padding: 10px;
+  text-align: center;
+}

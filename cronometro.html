@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Cronômetro</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html" id="link-relogio">Relógio</a></li>
+          <li>
+            <a href="./cronometro.html" id="link-cronometro">Cronômetro</a>
+          </li>
+          <li>
+            <a href="./calendario.html" id="link-calendario">Calendário</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="panel panel-default" id="panel-principal">
+        <div class="panel-tools" id="panel-ferramentas"></div>
+
+        <div id="panel-tempo">
+          <span id="label-tempo" class="colored digit text-nowrap font-digit"
+            >00:00</span
+          >
+          <span id="label-msec" class="colored digit text-nowrap font-digit"
+            >.00</span
+          >
+        </div>
+        <div class="panel-tools" id="panel-ferramentas"></div>
+
+        <button
+          type="button"
+          class="btn btn-space btn-classic btn-primary"
+          id="btn-lap"
+        >
+          Volta
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-space btn-classic btn-redefinir"
+          id="btn-reset"
+          disabled
+        >
+          Redefinir
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-space btn-classic btn-iniciar"
+          id="btn-resume"
+        >
+          Iniciar
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-space btn-classic btn-parar"
+          id="btn-pause"
+        >
+          Parar
+        </button>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./src/js/cronometro.js"></script>
+  </body>
+</html>
